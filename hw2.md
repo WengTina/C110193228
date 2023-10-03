@@ -31,7 +31,7 @@ gantt
 ```
 ## PERT/CPM 圖
 
-![pert](pert_diagram.png)
+![pert](pert.png)
 
 ---
 ## 關鍵路徑
