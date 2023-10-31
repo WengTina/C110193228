@@ -63,3 +63,31 @@ The outer pipes (|) are optional, and you don't need to make the raw Markdown li
 |*Still*    |`renders`|**nicely**|
 |1        |2        |3         |
 
+---
+1031 zuvio 作業
+```js
+class CTriangle extends CShape{
+    double ca, cb, cc;
+    public CTriangle(double a, double b, double c){
+        ca=a;
+        cb=b;
+        cc=c;
+    }
+   
+    public void show() {
+       
+        System.out.print("color="+color+"  ");
+        System.out.print("area="+0.5*ca*cb);
+    }
+   
+}
+```
+```js
+public class app11 {
+   public static void main(String[] args) {
+    CTriangle ct = new CTriangle(3, 4, 5);
+    ct.setColor("red");
+    ct.show();
+}
+}
+```
