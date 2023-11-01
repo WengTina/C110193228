@@ -64,7 +64,7 @@ The outer pipes (|) are optional, and you don't need to make the raw Markdown li
 |1        |2        |3         |
 
 ---
-1031 zuvio 作業
+1031 zuvio 作業-1
 ```js
 class CTriangle extends CShape{
     double ca, cb, cc;
@@ -89,5 +89,49 @@ public class app11 {
     ct.setColor("red");
     ct.show();
 }
+}
+```
+---
+1031 zuvio 作業-2
+```js
+import java.util.ArrayList;
+import java.util.List;
+
+public class Student {
+    private String name;
+    private List<Course> courses;
+
+    public Student(String name) {
+        this.name = name;
+        this.courses = new ArrayList<>();
+    }
+
+    public boolean addCourse(Course course) {
+        if (courses.size() < 10) {
+            courses.add(course);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean removeCourse(Course course) {
+        return courses.remove(course);
+    }
+
+    public List<Course> getCourses() {
+        return courses;
+    }
+
+    // Other getters, setters, and relevant methods
+}
+
+public class Course {
+    private String courseName;
+
+    public Course(String courseName) {
+        this.courseName = courseName;
+    }
+
+    // Getters, setters, and other relevant methods
 }
 ```
